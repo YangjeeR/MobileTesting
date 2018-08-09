@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="WIN10(failed)" parallel="tests">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="remoteurl" value="http://192.168.0.111:4449/wd/hub"/>
+    <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="OliveCMS.selenium_parallel">
+        <methods>
+          <include name="parallelTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- OliveCMS.selenium_parallel -->
+    </classes>
+  </test> <!-- WIN10(failed) -->
+</suite> <!-- Failed suite [Suite] -->

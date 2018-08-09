@@ -1,0 +1,335 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 20 14:30:16 NPT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>293 seconds (293041 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='POM.LoginTest.ForgetTestCase()'><b>ForgetTestCase</b><br>Test class: POM.LoginTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-O5SIUU5&apos;, ip: &apos;192.168.210.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=co.olivemedia.hihoandroidwebapp, noReset=true, deviceName=10160a5273cd3302, platform=LINUX, deviceUDID=10160a5273cd3302, desired={app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, noReset=true, newCommandTimeout=120.0, unicodeKeyboard=true, platformName=Android, deviceName=192.168.188.102:5555, autoAcceptAlerts=true}, newCommandTimeout=120.0, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=samsung, app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, appWaitPackage=co.olivemedia.hihoandroidwebapp, appWaitActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, databaseEnabled=false, appActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, locationContextEnabled=false, deviceModel=SM-G920F, autoAcceptAlerts=true}]
+Session ID: ad8a1ba7-5752-4f90-82bc-041be956db09
+*** Element info: {Using=id, value=co.olivemedia.hihoandroidwebapp:id/close_login}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at POM.Forget_Page.clickclose(Forget_Page.java:65)
+	at POM.LoginTest.ForgetTestCase(LoginTest.java:207)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace281421502", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace281421502'><pre>org.openqa.selenium.NoSuchSessionException: A session is either terminated or not started (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-O5SIUU5&apos;, ip: &apos;192.168.210.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=co.olivemedia.hihoandroidwebapp, noReset=true, deviceName=10160a5273cd3302, platform=LINUX, deviceUDID=10160a5273cd3302, desired={app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, noReset=true, newCommandTimeout=120.0, unicodeKeyboard=true, platformName=Android, deviceName=192.168.188.102:5555, autoAcceptAlerts=true}, newCommandTimeout=120.0, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=samsung, app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, appWaitPackage=co.olivemedia.hihoandroidwebapp, appWaitActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, databaseEnabled=false, appActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, locationContextEnabled=false, deviceModel=SM-G920F, autoAcceptAlerts=true}]
+Session ID: ad8a1ba7-5752-4f90-82bc-041be956db09
+*** Element info: {Using=id, value=co.olivemedia.hihoandroidwebapp:id/close_login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at POM.Forget_Page.clickclose(Forget_Page.java:65)
+	at POM.LoginTest.ForgetTestCase(LoginTest.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.LoginTestCase()'><b>LoginTestCase</b><br>Test class: POM.LoginTest<br>Test method: Login Test Case</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.69 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-O5SIUU5&apos;, ip: &apos;192.168.210.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=co.olivemedia.hihoandroidwebapp, noReset=true, deviceName=10160a5273cd3302, platform=LINUX, deviceUDID=10160a5273cd3302, desired={app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, noReset=true, newCommandTimeout=120.0, unicodeKeyboard=true, platformName=Android, deviceName=192.168.188.102:5555, autoAcceptAlerts=true}, newCommandTimeout=120.0, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=samsung, app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, appWaitPackage=co.olivemedia.hihoandroidwebapp, appWaitActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, databaseEnabled=false, appActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, locationContextEnabled=false, deviceModel=SM-G920F, autoAcceptAlerts=true}]
+Session ID: ad8a1ba7-5752-4f90-82bc-041be956db09
+*** Element info: {Using=id, value=co.olivemedia.hihoandroidwebapp:id/close_login}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at POM.Login_Page.clickclose(Login_Page.java:103)
+	at POM.LoginTest.LoginTestCase(LoginTest.java:130)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace79161706", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace79161706'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.69 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-O5SIUU5&apos;, ip: &apos;192.168.210.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=co.olivemedia.hihoandroidwebapp, noReset=true, deviceName=10160a5273cd3302, platform=LINUX, deviceUDID=10160a5273cd3302, desired={app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, noReset=true, newCommandTimeout=120.0, unicodeKeyboard=true, platformName=Android, deviceName=192.168.188.102:5555, autoAcceptAlerts=true}, newCommandTimeout=120.0, platformVersion=6.0.1, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=samsung, app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, deviceScreenSize=1440x2560, networkConnectionEnabled=true, warnings={}, appWaitPackage=co.olivemedia.hihoandroidwebapp, appWaitActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, databaseEnabled=false, appActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, locationContextEnabled=false, deviceModel=SM-G920F, autoAcceptAlerts=true}]
+Session ID: ad8a1ba7-5752-4f90-82bc-041be956db09
+*** Element info: {Using=id, value=co.olivemedia.hihoandroidwebapp:id/close_login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at POM.Login_Page.clickclose(Login_Page.java:103)
+	at POM.LoginTest.LoginTestCase(LoginTest.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>44</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='POM.LoginTest.ApplicationTestCase()'><b>ApplicationTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>25</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.InterviewTestCase()'><b>InterviewTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.JobSearchLocationTestCase()'><b>JobSearchLocationTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>20</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.JobSearchTestCase()'><b>JobSearchTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>98</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.JobSearchpPayTestCase()'><b>JobSearchpPayTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.JobsFeedTestCase()'><b>JobsFeedTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>49</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.MytTrainingTestCase()'><b>MytTrainingTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.OfferTestCase()'><b>OfferTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.SettingsTestCase()'><b>SettingsTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.TrainingTestCase()'><b>TrainingTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>4</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.WalletTestCase()'><b>WalletTestCase</b><br>Test class: POM.LoginTest</td>
+<td></td>
+<td>2</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+<tr>
+<td title='POM.LoginTest.setup_server()'><b>setup_server</b><br>Test class: POM.LoginTest<br>Test method: Creating App session Test Case</td>
+<td></td>
+<td>35</td>
+<td>POM.LoginTest@73ad2d6</td></tr>
+</table><p>
+</body>
+</html>

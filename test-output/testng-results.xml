@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68723" started-at="2018-07-30T08:47:10Z" finished-at="2018-07-30T08:48:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68723" started-at="2018-07-30T08:47:10Z" finished-at="2018-07-30T08:48:19Z">
+      <class name="POM.LoginTest">
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="711" started-at="2018-07-30T14:32:10Z" finished-at="2018-07-30T14:32:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="setup_server()[pri:1, instance:POM.LoginTest@e45f292]" name="setup_server" duration-ms="38687" started-at="2018-07-30T14:32:11Z" description="Creating App session Test Case" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_server -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="140" started-at="2018-07-30T14:32:50Z" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="60" started-at="2018-07-30T14:32:50Z" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="LoginTestCase()[pri:2, instance:POM.LoginTest@e45f292]" name="LoginTestCase" duration-ms="373" started-at="2018-07-30T14:32:50Z" description="Login Test Case" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="46" started-at="2018-07-30T14:32:50Z" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="68" started-at="2018-07-30T14:32:50Z" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="JobsFeedTestCase()[pri:3, instance:POM.LoginTest@e45f292]" name="JobsFeedTestCase" duration-ms="101" started-at="2018-07-30T14:32:50Z" description="Jobs Feed module test" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobsFeedTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="38" started-at="2018-07-30T14:32:50Z" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="35" started-at="2018-07-30T14:32:50Z" finished-at="2018-07-30T14:32:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="ApplicationTestCase()[pri:4, instance:POM.LoginTest@e45f292]" name="ApplicationTestCase" duration-ms="95" started-at="2018-07-30T14:32:50Z" description="application module test" finished-at="2018-07-30T14:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="42" started-at="2018-07-30T14:32:51Z" finished-at="2018-07-30T14:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="47" started-at="2018-07-30T14:32:51Z" finished-at="2018-07-30T14:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="InterviewTestCase()[pri:5, instance:POM.LoginTest@e45f292]" name="InterviewTestCase" duration-ms="525" started-at="2018-07-30T14:32:51Z" description="Interview tab test" finished-at="2018-07-30T14:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InterviewTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="39" started-at="2018-07-30T14:32:51Z" finished-at="2018-07-30T14:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="41" started-at="2018-07-30T14:32:51Z" finished-at="2018-07-30T14:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="OfferTestCase()[pri:6, instance:POM.LoginTest@e45f292]" name="OfferTestCase" duration-ms="188" started-at="2018-07-30T14:32:51Z" description="Offer tab test" finished-at="2018-07-30T14:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OfferTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="46" started-at="2018-07-30T14:32:51Z" finished-at="2018-07-30T14:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="29" started-at="2018-07-30T14:32:52Z" finished-at="2018-07-30T14:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="JobSearchLocationTestCase()[pri:7, instance:POM.LoginTest@e45f292]" name="JobSearchLocationTestCase" duration-ms="2659" started-at="2018-07-30T14:32:52Z" description="Job Search Module-Location Test Case" finished-at="2018-07-30T14:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobSearchLocationTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="50" started-at="2018-07-30T14:32:54Z" finished-at="2018-07-30T14:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="37" started-at="2018-07-30T14:32:54Z" finished-at="2018-07-30T14:32:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="JobSearchTestCase()[pri:8, instance:POM.LoginTest@e45f292]" name="JobSearchTestCase" duration-ms="6403" started-at="2018-07-30T14:32:54Z" description="Job Search module -Job Test Case" finished-at="2018-07-30T14:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobSearchTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="33" started-at="2018-07-30T14:33:01Z" finished-at="2018-07-30T14:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="26" started-at="2018-07-30T14:33:01Z" finished-at="2018-07-30T14:33:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="JobSearchpPayTestCase()[pri:9, instance:POM.LoginTest@e45f292]" name="JobSearchpPayTestCase" duration-ms="2096" started-at="2018-07-30T14:33:01Z" description="Job Search Module- Pay Test Case" finished-at="2018-07-30T14:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JobSearchpPayTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="35" started-at="2018-07-30T14:33:03Z" finished-at="2018-07-30T14:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="52" started-at="2018-07-30T14:33:03Z" finished-at="2018-07-30T14:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="TrainingTestCase()[pri:10, instance:POM.LoginTest@e45f292]" name="TrainingTestCase" duration-ms="4847" started-at="2018-07-30T14:33:03Z" description="Training Module Test Case" finished-at="2018-07-30T14:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TrainingTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="25" started-at="2018-07-30T14:33:08Z" finished-at="2018-07-30T14:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="25" started-at="2018-07-30T14:33:08Z" finished-at="2018-07-30T14:33:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="MytTrainingTestCase()[pri:11, instance:POM.LoginTest@e45f292]" name="MytTrainingTestCase" duration-ms="2769" started-at="2018-07-30T14:33:08Z" description="My Training Module Test Case" finished-at="2018-07-30T14:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MytTrainingTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="25" started-at="2018-07-30T14:33:11Z" finished-at="2018-07-30T14:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="27" started-at="2018-07-30T14:33:11Z" finished-at="2018-07-30T14:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="WalletTestCase()[pri:12, instance:POM.LoginTest@e45f292]" name="WalletTestCase" duration-ms="2015" started-at="2018-07-30T14:33:11Z" description="Wallet Module Test Case" finished-at="2018-07-30T14:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WalletTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="26" started-at="2018-07-30T14:33:13Z" finished-at="2018-07-30T14:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="21" started-at="2018-07-30T14:33:13Z" finished-at="2018-07-30T14:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="SettingsTestCase()[pri:13, instance:POM.LoginTest@e45f292]" name="SettingsTestCase" duration-ms="2012" started-at="2018-07-30T14:33:13Z" description="Settings Module Test Case" finished-at="2018-07-30T14:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SettingsTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="27" started-at="2018-07-30T14:33:15Z" finished-at="2018-07-30T14:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="19" started-at="2018-07-30T14:33:15Z" finished-at="2018-07-30T14:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="LogoutTestCase()[pri:14, instance:POM.LoginTest@e45f292]" name="LogoutTestCase" duration-ms="4016" started-at="2018-07-30T14:33:15Z" description="Logout Test Case" finished-at="2018-07-30T14:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="27" started-at="2018-07-30T14:33:19Z" finished-at="2018-07-30T14:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+        <test-method status="PASS" signature="read()[pri:0, instance:POM.LoginTest@e45f292]" name="read" is-config="true" duration-ms="40" started-at="2018-07-30T14:33:19Z" finished-at="2018-07-30T14:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read -->
+        <test-method status="PASS" signature="ForgetTestCase()[pri:15, instance:POM.LoginTest@e45f292]" name="ForgetTestCase" duration-ms="21" started-at="2018-07-30T14:33:19Z" description="Forget Module Test Case" finished-at="2018-07-30T14:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ForgetTestCase -->
+        <test-method status="PASS" signature="write()[pri:0, instance:POM.LoginTest@e45f292]" name="write" is-config="true" duration-ms="32" started-at="2018-07-30T14:33:19Z" finished-at="2018-07-30T14:33:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- write -->
+      </class> <!-- POM.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [HiUPTest]">
+  <test name="Testing all HiUp Modules(failed)">
+    <classes>
+      <class name="POM.LogOutModuleTest">
+        <methods>
+          <include name="LogoutTestCase"/>
+        </methods>
+      </class> <!-- POM.LogOutModuleTest -->
+    </classes>
+  </test> <!-- Testing all HiUp Modules(failed) -->
+</suite> <!-- Failed suite [HiUPTest] -->

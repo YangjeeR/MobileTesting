@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="4" parallel="tests">
+  <test name="WIN10" verbose="2">
+  
+  	 <parameter name="platform" value="WIN10"/>
+  	 <parameter name="browserName" value="chrome"/>
+  	 <parameter name="remoteurl" value="http://192.168.0.111:4449/wd/hub"/>
+  	
+
+    <classes>
+      <class name="OliveCMS.selenium_parallel">
+      	<methods>
+      		<include name="parallelTest"/>
+      
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="WIN8_1" verbose="2">
+  
+  	 <parameter name="platform" value="WIN8_1"/>
+  	 <parameter name="browserName" value="ie"/>
+  	 <parameter name="remoteurl" value=" http://192.168.0.111:4450/wd/hub"/>
+  	
+    <classes>
+      <class name="OliveCMS.selenium_parallel">
+      	<methods>
+      		<include name="parallelTest"/>
+      	
+      	</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+
+  
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ParallelTest]" parallel="tests">
+  <test name="Test-samsung-6(failed)" parallel="tests">
+    <parameter name="platformVersion" value="6.0"/>
+    <parameter name="deviceName" value="10160a5273cd3302"/>
+    <classes>
+      <class name="POM.ParallelTesting">
+        <methods>
+          <include name="read"/>
+          <include name="LoginTestCase"/>
+          <include name="ForgetTestCase"/>
+          <include name="write"/>
+          <include name="setup_server" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- POM.ParallelTesting -->
+    </classes>
+  </test> <!-- Test-samsung-6(failed) -->
+  <test name="Test-s6-edge(failed)" parallel="tests">
+    <parameter name="platformVersion" value="5.1"/>
+    <parameter name="deviceName" value="04157df411343e15"/>
+    <classes>
+      <class name="POM.ParallelTesting">
+        <methods>
+          <include name="read"/>
+          <include name="LoginTestCase"/>
+          <include name="ForgetTestCase"/>
+          <include name="write"/>
+          <include name="setup_server" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- POM.ParallelTesting -->
+    </classes>
+  </test> <!-- Test-s6-edge(failed) -->
+</suite> <!-- Failed suite [ParallelTest] -->

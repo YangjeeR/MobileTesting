@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+ 
+<suite name="ParallelTest" parallel="tests" thread-count="2">
+ 
+    <!--Samsung Galaxy s6 edge-->
+    <test name="Test-s6-edge">
+    
+        <parameter name="deviceName" value="ce11171b65dd9c3a0c" />
+        <parameter name="platformVersion" value="8.0" />
+        <classes>
+            <class name="POM.ParallelTesting" />
+        </classes>
+    </test>
+    
+    <!-- Samsung 6 -->
+    <test name="Test-samsung-6">
+        <parameter name="deviceName" value="10160a5273cd3302" />
+        <parameter name="platformVersion" value="6.0" />
+        <classes>
+            <class name="POM.ParallelTesting" />
+        </classes>
+    </test>
+ 
+</suite>

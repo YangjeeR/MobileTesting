@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HiUPTest" configfailurepolicy="continue" parallel="false" preserve-order="true">
+  <test name="Testing all HiUp Modules">
+    <classes>
+      <class name="POM.hiUpSetUp"/>
+       <class name="POM.LogOutModuleTest"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,162 @@
+Test Case Description:
+
+1)Application Open
+i)Connect device to Appium server 
+ii)If the application opens and test case is passed.
+
+2)Login Test Case
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Profile menu
+iv)Click login button
+v)Enter valid User name and Password
+vi)Click on sign in button
+vii)If user name entered and profile email address matches then user login is successful.
+
+3)LogOut Test Case
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Logout menu
+iv)Click on Yes button
+
+
+4)Forget Test Case
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Profile menu
+iv)Click login button
+v)Click on forget password link
+vi)Enter email address
+vi)Click reset button
+vii)If Email sends text appears then email reset is successful.
+
+5)Sign Up Test Case
+i)Data from excel file is read and saved in string as data0,data1,.... serially.
+ii)For loop has been used to fetch data from excel continuously until last row from excel is checked.
+iii)Click on control button
+iv)Click on main menu button
+v)Click on Profile menu
+vi)Click on Sign Up button
+vii)Data saved in strings are passed to the fields in sign up form.
+viii)If user name entered and profile email address matches signup is successful.
+ix)Then edit profile,enter title,about and click on save button.
+
+6)Job Feed Test Case
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Job Feed menu
+iv)If jobs title is displayed,Job Feed menu successfully opened
+v)Click on first job from the list and click on apply.
+vi)If jobs title is still displaying then code if(label_job.isDisplayed()) runs and get message "Job has already been applied"
+vii)Then Runs do while loop
+viii)Execute steps i-iii
+ix)Click on second job from the list and click on apply then click on  send application.
+x)If jobs title is not displayed then Job Page title get displayed and selected application gets applied.
+Else again do while loop gets executed because script has condition as while(label_job.isDisplayed()).
+xi)If while clicking first job from the list,jobs title is not displayed then Application will be applied and code does not execute do while loop.
+
+7)Application Test Case
+Applications Tab
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Application menu
+iv)If title Your job applications displays, then menu is successfully opened.
+v)Check application list in the application tab
+vi)If there are applications in the list, click on view else display message no application in the list
+vii)If title of application list matches with selected application after clicking view then selected app has been opened.
+ix)Repeat step i-iii
+
+8)Interviews Tab
+Steps:
+i)Click on interviews tab 
+ii)If the interview empty list view  displays then display message no interview in the list
+
+9)Offers Tab
+Steps:
+i)Click on Offers tab 
+ii)If the offers empty list view  displays then display message no offers in the list
+
+10)Job Search Setting Test Case
+Location Tab
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Job search settings menu
+iv)Enter post code in the post code field
+v)click on done if jobs title displayed then successful.
+
+11)Job Tab
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Job search settings menu
+iv)Click on Job Tab
+v)Click on role and select roles from the list
+vi)Click on done
+vii)If jobs title start with role selected then code is successful.
+
+12)Pay Tab
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Job search settings menu
+iv)Click on Pay Tab
+v)Click on done
+vi)click on done if jobs title displayed then successful.
+
+13)Training Test Case
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on Training menu
+iv)Click on courses by Industry
+v)Industry name has been hard coded in Tranining_Page 
+vi)Click on Engineering and Manufacturing
+vii)Get Price if price is free and click on free course
+viii)Click on enroll
+ix)If enroll button still appears then course has already been enrolled else message thank you for your purchase appears
+x)For course with price,click on course then click on purchase course
+xi)Click on proceed to payment button,enter card number, expiry date and cvv  number
+xii)Click on pay securely button if pay button still appears then course has already been applied
+else message Thank you for your purchase appears
+xiii)Click on my courses
+xiv)If My training title appears then my courses menu is successfully opened
+
+14)My Training Test Case
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on  My Training menu
+iv)Check training in the list or not
+v)If training is present in the list,click on first training 
+vi)If the training title in the list and opened training's title matches then code is successful.
+
+15)Wallet Test Case
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on  Wallet menu
+iv)Click on add and click on assets
+v)Click on take photo and click save 
+vi)If my wallet title appears then successful
+vii)Click on certificates tab,if open successful
+
+16)Settings Test Case
+Steps:
+i)Click on control button
+ii)Click on main menu button
+iii)Click on setting and more menu
+iv)Click on Region
+v)Select region from the list and click on change region
+vi)Click on sign out button and click on yes button
+vii)You are successfully signed out.
+
+
+
+
+

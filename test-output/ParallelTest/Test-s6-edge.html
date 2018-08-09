@@ -1,0 +1,334 @@
+<html>
+<head>
+<title>TestNG:  Test-s6-edge</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test-s6-edge</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 08 14:33:07 NPT 2018</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68085 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='POM.ParallelTesting.ForgetTestCase()'><b>ForgetTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-O5SIUU5&apos;, ip: &apos;192.168.210.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=co.olivemedia.hihoandroidwebapp, noReset=true, deviceName=ce11171b65dd9c3a0c, platform=LINUX, deviceUDID=ce11171b65dd9c3a0c, desired={app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, noReset=true, newCommandTimeout=120.0, platformVersion=8.0, unicodeKeyboard=true, platformName=Android, deviceName=ce11171b65dd9c3a0c, autoAcceptAlerts=true}, newCommandTimeout=120.0, platformVersion=8.0.0, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=samsung, app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, deviceScreenSize=1440x2960, networkConnectionEnabled=true, warnings={}, appWaitPackage=co.olivemedia.hihoandroidwebapp, appWaitActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, databaseEnabled=false, appActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, locationContextEnabled=false, deviceModel=SM-G950F, autoAcceptAlerts=true}]
+Session ID: 7f79a365-3bc2-48f6-90b8-34e815daf28d
+*** Element info: {Using=id, value=co.olivemedia.hihoandroidwebapp:id/close_login}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at POM.Forget_Page.clickclose(Forget_Page.java:65)
+	at POM.ParallelTesting.ForgetTestCase(ParallelTesting.java:214)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 19 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace676676025", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace676676025'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 32 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-O5SIUU5&apos;, ip: &apos;192.168.210.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=co.olivemedia.hihoandroidwebapp, noReset=true, deviceName=ce11171b65dd9c3a0c, platform=LINUX, deviceUDID=ce11171b65dd9c3a0c, desired={app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, noReset=true, newCommandTimeout=120.0, platformVersion=8.0, unicodeKeyboard=true, platformName=Android, deviceName=ce11171b65dd9c3a0c, autoAcceptAlerts=true}, newCommandTimeout=120.0, platformVersion=8.0.0, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=samsung, app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, deviceScreenSize=1440x2960, networkConnectionEnabled=true, warnings={}, appWaitPackage=co.olivemedia.hihoandroidwebapp, appWaitActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, databaseEnabled=false, appActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, locationContextEnabled=false, deviceModel=SM-G950F, autoAcceptAlerts=true}]
+Session ID: 7f79a365-3bc2-48f6-90b8-34e815daf28d
+*** Element info: {Using=id, value=co.olivemedia.hihoandroidwebapp:id/close_login}
+	at sun.reflect.GeneratedConstructorAccessor39.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at POM.Forget_Page.clickclose(Forget_Page.java:65)
+	at POM.ParallelTesting.ForgetTestCase(ParallelTesting.java:214)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.LoginTestCase()'><b>LoginTestCase</b><br>Test class: POM.ParallelTesting<br>Test method: Login Test Case</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 600 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-O5SIUU5&apos;, ip: &apos;192.168.210.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=co.olivemedia.hihoandroidwebapp, noReset=true, deviceName=ce11171b65dd9c3a0c, platform=LINUX, deviceUDID=ce11171b65dd9c3a0c, desired={app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, noReset=true, newCommandTimeout=120.0, platformVersion=8.0, unicodeKeyboard=true, platformName=Android, deviceName=ce11171b65dd9c3a0c, autoAcceptAlerts=true}, newCommandTimeout=120.0, platformVersion=8.0.0, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=samsung, app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, deviceScreenSize=1440x2960, networkConnectionEnabled=true, warnings={}, appWaitPackage=co.olivemedia.hihoandroidwebapp, appWaitActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, databaseEnabled=false, appActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, locationContextEnabled=false, deviceModel=SM-G950F, autoAcceptAlerts=true}]
+Session ID: 7f79a365-3bc2-48f6-90b8-34e815daf28d
+*** Element info: {Using=id, value=co.olivemedia.hihoandroidwebapp:id/close_login}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at POM.Login_Page.clickclose(Login_Page.java:103)
+	at POM.ParallelTesting.LoginTestCase(ParallelTesting.java:135)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1741536913", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1741536913'><pre>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 600 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;DESKTOP-O5SIUU5&apos;, ip: &apos;192.168.210.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=co.olivemedia.hihoandroidwebapp, noReset=true, deviceName=ce11171b65dd9c3a0c, platform=LINUX, deviceUDID=ce11171b65dd9c3a0c, desired={app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, noReset=true, newCommandTimeout=120.0, platformVersion=8.0, unicodeKeyboard=true, platformName=Android, deviceName=ce11171b65dd9c3a0c, autoAcceptAlerts=true}, newCommandTimeout=120.0, platformVersion=8.0.0, webStorageEnabled=false, takesScreenshot=true, javascriptEnabled=true, unicodeKeyboard=true, platformName=Android, deviceManufacturer=samsung, app=D:\eclipse-workspace\MobileTesting\app\Hiup_2.2.1_65.apk, deviceScreenSize=1440x2960, networkConnectionEnabled=true, warnings={}, appWaitPackage=co.olivemedia.hihoandroidwebapp, appWaitActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, databaseEnabled=false, appActivity=co.olivemedia.hihoandroidwebapp.activities.SplashScreenActivity, locationContextEnabled=false, deviceModel=SM-G950F, autoAcceptAlerts=true}]
+Session ID: 7f79a365-3bc2-48f6-90b8-34e815daf28d
+*** Element info: {Using=id, value=co.olivemedia.hihoandroidwebapp:id/close_login}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:453)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:64)
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at POM.Login_Page.clickclose(Login_Page.java:103)
+	at POM.ParallelTesting.LoginTestCase(ParallelTesting.java:135)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:459)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>5</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='POM.ParallelTesting.ApplicationTestCase()'><b>ApplicationTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>0</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.InterviewTestCase()'><b>InterviewTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>0</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.JobSearchLocationTestCase()'><b>JobSearchLocationTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>2</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.JobSearchTestCase()'><b>JobSearchTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>2</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.JobSearchpPayTestCase()'><b>JobSearchpPayTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>2</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.JobsFeedTestCase()'><b>JobsFeedTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>0</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.MytTrainingTestCase()'><b>MytTrainingTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>2</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.OfferTestCase()'><b>OfferTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>0</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.SettingsTestCase()'><b>SettingsTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>2</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.TrainingTestCase()'><b>TrainingTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>4</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.WalletTestCase()'><b>WalletTestCase</b><br>Test class: POM.ParallelTesting</td>
+<td></td>
+<td>2</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+<tr>
+<td title='POM.ParallelTesting.setup_server()'><b>setup_server</b><br>Test class: POM.ParallelTesting<br>Test method: Creating App session Test Case<br>Parameters: ce11171b65dd9c3a0c, 8.0</td>
+<td></td>
+<td>42</td>
+<td>POM.ParallelTesting@6fd02e5</td></tr>
+</table><p>
+</body>
+</html>

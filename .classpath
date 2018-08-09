@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/java-client-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/poi-scratchpad-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/dom4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/poi-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/poi-examples-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/poi-excelant-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/poi-ooxml-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/poi-ooxml-schemas-3.16.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/ooxml-lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/ooxml-lib/curvesapi-1.04.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/jxl-2.6.jar/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Downloads/Tess4J-3.4.4-src/Tess4J/dist/tess4j-3.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/poi/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Downloads/asprise-ocr-java-15.3.1-trial-windows/aocr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/commons-beanutils-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/ghost4j-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/jai-imageio-core-1.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/jboss-vfs-3.2.12.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/jcl-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/jul-to-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/lept4j-1.6.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/log4j-over-slf4j-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/eclipse-workspace/MobileTesting/lib/xmlgraphics-commons-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Acer/Desktop/selenium/Tess4J/aspriseOCR.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Opencv">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="D:/opencv/opencv/build/java/x64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Acer/Downloads/stalkr-death-by-captcha-0.2.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
